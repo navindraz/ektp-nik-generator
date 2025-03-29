@@ -1,0 +1,4 @@
+use amculin\ektp\generator\KTP;
+
+$identity = new KTP();
+echo "NIK: {$identity->getNIK()}";
